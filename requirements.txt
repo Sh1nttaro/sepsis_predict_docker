@@ -1,0 +1,9 @@
+apache-airflow==2.0.2
+apache-airflow-providers-postgres
+apache-airflow-providers-redis
+pandas
+numpy
+tensorflow
+scikit-learn
+mlflow
+yandexcloud

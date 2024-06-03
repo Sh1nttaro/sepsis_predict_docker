@@ -1,0 +1,19 @@
+name: myenv
+channels:
+  - conda-forge
+  - defaults
+  - apache
+dependencies:
+  - python=3.8
+  - pandas
+  - numpy
+  - tensorflow
+  - scikit-learn
+  - keras
+  - mlflow
+  - pip
+  - pip:
+    - apache-airflow==2.0.2
+    - apache-airflow-providers-postgres
+    - apache-airflow-providers-redis
+    - yandexcloud
